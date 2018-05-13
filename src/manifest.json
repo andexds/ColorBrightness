@@ -4,15 +4,23 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "my-command-identifier",
-      "script": "./my-command.js"
+      "name": "Darken",
+      "identifier": "darken",
+      "script": "./darken.js",
+      "shortcut": "ctrl shift d"
+    },
+    {
+      "name": "Lighten",
+      "identifier": "lighten",
+      "script": "./lighten.js",
+      "shortcut": "ctrl shift l"
     }
   ],
   "menu": {
-    "title": "colorBrightness",
+    "title": "ColorBrightness",
     "items": [
-      "my-command-identifier"
+      "lighten",
+      "darken"
     ]
   }
 }
