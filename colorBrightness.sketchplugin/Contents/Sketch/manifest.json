@@ -6,18 +6,18 @@
     {
       "name": "setBrightness",
       "identifier": "setbrightness",
-      "script": "./setbrightness.js"
+      "script": "setbrightness.js"
     },
     {
       "name": "Darken",
       "identifier": "darken",
-      "script": "./darken.js",
+      "script": "darken.js",
       "shortcut": "ctrl shift d"
     },
     {
       "name": "Lighten",
       "identifier": "lighten",
-      "script": "./lighten.js",
+      "script": "lighten.js",
       "shortcut": "ctrl shift l"
     }
   ],
@@ -28,5 +28,11 @@
       "lighten",
       "darken"
     ]
-  }
+  },
+  "version": "0.1.0",
+  "name": "colorBrightness",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Anashkin Andrey",
+  "authorEmail": "andrey@anashkin.design"
 }

@@ -46,6 +46,7 @@ export function hslToRgb(h, s, l) {
 
   return [ r * 255, g * 255, b * 255 ];
 }
+
 function componentToHex(c) {
   c = Math.round(c)
   var hex = c.toString(16);
