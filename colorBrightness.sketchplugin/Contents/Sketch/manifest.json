@@ -4,9 +4,14 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "setBrightness",
+      "name": "Set Brightness",
       "identifier": "setbrightness",
-      "script": "setbrightness.js"
+      "script": "setbrightness.js",
+      "icon": "./Resources/setbrightness.png",
+      "handlers": {
+        "run": "setbrightness"
+      },
+      "description": "Set Brightness to select layer"
     },
     {
       "name": "Darken",
