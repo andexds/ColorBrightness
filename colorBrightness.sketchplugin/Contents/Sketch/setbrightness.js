@@ -344,9 +344,6 @@ __webpack_require__.r(__webpack_exports__);
 
     var _rgb = _colorHelper__WEBPACK_IMPORTED_MODULE_1__["hslToRgb"].apply(null, _hsl);
 
-    console.log(";;;;;;;;;;;;;;;;");
-    console.log(_hsl);
-    console.log(_rgb);
     textLayer.textColor = MSColor.colorWithRed_green_blue_alpha(_rgb[0] / 255, _rgb[1] / 255, _rgb[2] / 255, 1.0);
   }
 });
@@ -389,7 +386,6 @@ module.exports = require("sketch/ui");
     exports[key](context);
   }
 }
-that['setbrightness'] = __skpm_run.bind(this, 'setbrightness');
 that['onRun'] = __skpm_run.bind(this, 'default')
 
 //# sourceMappingURL=setbrightness.js.map

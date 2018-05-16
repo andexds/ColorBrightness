@@ -57,9 +57,6 @@ export default function(context) {
 
     hsl[2] = newL
     let rgb = hslToRgb.apply(null,hsl)
-    console.log(";;;;;;;;;;;;;;;;");
-    console.log(hsl);
-    console.log(rgb);
     textLayer.textColor = MSColor.colorWithRed_green_blue_alpha(
       rgb[0]/255,
       rgb[1]/255,

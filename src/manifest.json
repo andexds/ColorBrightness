@@ -6,12 +6,7 @@
     {
       "name": "Set Brightness",
       "identifier": "setbrightness",
-      "script": "./setbrightness.js",
-      "icon": "./Resources/setbrightness.png",
-      "handlers" : {
-        "run" : "setbrightness"
-      },
-      "description" : "Set Brightness to select layer"
+      "script": "./setbrightness.js"
     },
     {
       "name": "Darken",
