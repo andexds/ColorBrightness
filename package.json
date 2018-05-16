@@ -21,5 +21,9 @@
   "devDependencies": {
     "@skpm/builder": "^0.5.2"
   },
-  "author": "Anashkin Andrey <andrey@anashkin.design>"
+  "author": "Anashkin Andrey <andrey@anashkin.design>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andex/ColorBrightness.git"
+  }
 }
