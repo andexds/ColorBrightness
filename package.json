@@ -1,8 +1,9 @@
 {
   "name": "colorbrightness",
+  "description": "Make color lighten or darken",
   "version": "0.1.0",
   "engines": {
-    "sketch": ">=3.0"
+    "sketch": ">=4.0"
   },
   "skpm": {
     "name": "colorBrightness",
