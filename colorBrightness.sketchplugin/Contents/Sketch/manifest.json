@@ -29,7 +29,7 @@
       "darken"
     ]
   },
-  "version": "0.2.0",
+  "version": "1.2.0",
   "description": "Make color lighten or darken",
   "name": "colorBrightness",
   "identifier": "colorBrightness",
