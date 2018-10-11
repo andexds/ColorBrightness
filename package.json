@@ -3,7 +3,7 @@
   "description": "Make color lighten or darken",
   "version": "1.1.0",
   "engines": {
-    "sketch": ">=4.0"
+    "sketch": ">=5.2"
   },
   "skpm": {
     "name": "colorBrightness",
