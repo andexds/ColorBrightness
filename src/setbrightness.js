@@ -1,4 +1,4 @@
-import {getSelectedLayer} from './helper'
+import {getSelectedLayer, getNumberToSet} from './helper'
 import {rgbToHex, rgbToHsl, hexToRgb, hslToRgb} from './colorHelper'
 
 export default function(context) {
@@ -8,10 +8,13 @@ export default function(context) {
   let selected = getSelectedLayer(context)
   let layer = selected.layer
   let l
+  console.log('----------------')
 
-  if (selected.type == sketch.Types.Shape) {
+  if (selected.type == 'ShapePath') {
+
     let fills = layer.style.fills
-    let index = 0;
+    let index = 0
+
     for (var i = fills.length-1; i >= 0; i--) {
         if (fills[i].fill == "Color") {
           color = fills[i].color
@@ -67,12 +70,4 @@ export default function(context) {
       1.0)
 
   }
-
-}
-
-function getNumberToSet(l) {
-  let UI = require('sketch/ui')
-  let brightness = UI.getStringFromUser("Current Brightness "+l+", you may set (0 → 100)", l)
-
-  return +brightness
 }

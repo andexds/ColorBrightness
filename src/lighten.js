@@ -10,7 +10,7 @@ export default function(context) {
   let color = ""
   let UI = require('sketch/ui')
 
-  if (selected.type == sketch.Types.Shape) {
+  if (selected.type == 'ShapePath') {
     let fills = layer.style.fills
     let index = 0;
     for (var i = fills.length-1; i >= 0; i--) {

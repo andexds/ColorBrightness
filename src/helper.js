@@ -76,3 +76,9 @@ export function getSelectedLayer(context) {
   //   return
   // }
 }
+export function getNumberToSet(l) {
+  let UI = require('sketch/ui')
+  let brightness = UI.getStringFromUser("Current Brightness "+l+", you may set (0 → 100)", l)
+
+  return +brightness
+}

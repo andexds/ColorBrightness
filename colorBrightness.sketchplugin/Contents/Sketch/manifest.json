@@ -6,12 +6,7 @@
     {
       "name": "Set Brightness",
       "identifier": "setbrightness",
-      "script": "setbrightness.js",
-      "icon": "./Resources/setbrightness.png",
-      "handlers": {
-        "run": "setbrightness"
-      },
-      "description": "Set Brightness to select layer"
+      "script": "setbrightness.js"
     },
     {
       "name": "Darken",
@@ -34,10 +29,12 @@
       "darken"
     ]
   },
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "description": "Make color lighten or darken",
   "name": "colorBrightness",
+  "identifier": "colorBrightness",
   "disableCocoaScriptPreprocessor": true,
-  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "appcast": "https://raw.githubusercontent.com/andex/ColorBrightness/master/.appcast.xml",
   "author": "Anashkin Andrey",
   "authorEmail": "andrey@anashkin.design"
 }

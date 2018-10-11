@@ -9,12 +9,13 @@ export default function(context) {
   let layer = selected.layer
   let color = ""
   let UI = require('sketch/ui')
+  let Style = sketch.Style
 
-  if (selected.type == sketch.Types.Shape) {
+  if (selected.type == 'ShapePath') {
     let fills = layer.style.fills
     let index = 0;
     for (var i = fills.length-1; i >= 0; i--) {
-        if (fills[i].fill == "Color") {
+        if (fills[i].fill == Style.FillType.Color) {
           color = fills[i].color
           index = i
           break
